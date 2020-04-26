@@ -12,7 +12,6 @@ body{
 
 #wrapper{
   width: 90%;
-  height: 20%;
 }
 
 /*Quote-Author-Links*/
@@ -24,11 +23,13 @@ a, .quote, .author{
   font-family: "Open Sans";
   font-size: 2rem;
   line-height: 2rem;
+  margin-top: .5rem;
 }
 .author{
   font-family: "Libre Baskerville";
   letter-spacing: .1rem;
   margin-top: 3rem;
+  margin-bottom: .5rem;
   font-size: 1rem;
 }
 
@@ -39,10 +40,10 @@ a:hover{
   color: darkred;
 }
 
-footer {
+.footer {
   position: fixed;
-  right: 5px;
-  bottom: 5px;
+  right: 0;
+  bottom: 0;
   width: 100%;
   text-align: right;
   display: inline;
